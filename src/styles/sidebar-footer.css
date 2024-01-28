@@ -10,7 +10,7 @@ body {
   bottom: 0;
   padding: 5px;
   width: 320px;
-  height: 200px;
+  max-height: 100vh;
 }
 
 .sidebar__navigation {
@@ -58,7 +58,8 @@ body {
   font-weight: 600;
   font-size: 14px;
   margin-top: -6px;
-  height: 61vh;
+  height: 76%;
+  max-height: calc(1000vh - 10px);
 }
 
 .library .library__content {
