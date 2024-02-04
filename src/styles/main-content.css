@@ -14,7 +14,13 @@
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 8px;
-  background-color: #121212;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  /* background-color: #121212; */
   /* padding: 12px; */
 }
 
@@ -57,7 +63,7 @@
   margin-left: 12px;
   background-color: #242424;
   border-radius: 500px;
-  border: 1px solid transparent;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .header__search img {
@@ -104,16 +110,22 @@
 
 /* PLAYLIST */
 .playlist-container {
-  height: 82.5%;
+  height: 84.5%;
   max-height: calc(1000vh - 10px);
   padding-top: 1rem;
   margin: 0.5rem;
   border-radius: 10px;
-  background-color: #121212;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  /* background-color: #121212; */
 }
 
 .playlist {
-  margin: 24px;
+  margin: 20px;
 }
 
 .playlist #greeting {
@@ -132,8 +144,8 @@
 }
 
 .offer__scroll-container {
-  max-height: 60vh;
-  margin: 1rem;
+  max-height: 65vh;
+  margin: 0.5rem;
   overflow-y: auto;
 }
 
@@ -167,8 +179,8 @@
   position: relative; /* relative:
                           Comportamento em relação a si mesmo: O elemento é posicionado em relação à sua posição original.
                           Mantém espaço original: O espaço original que o elemento ocuparia não é alterado, mas você pode movê-lo com top, right, bottom ou left. */
-  width: 260px;
-  height: 240px;
+  width: 240px;
+  height: 220px;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -236,7 +248,7 @@
   right: 0;
   bottom: 0;
   height: auto;
-  width: 200px;
+  width: 150px;
   transform: rotate(25deg) translate(18%, -2%);
 }
 
